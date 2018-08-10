@@ -33,11 +33,14 @@ print(difference)
 #4
 # Function - multiply
 #Create a function named `multiply` which will take two parameters: `num_1` and `num_2`.
-
+def multiply(num1, num2):
+    return num1 * num2
+multiply(box_1, box_2)
 #This function will multiply two numbers and return the product of these two numbers. Invoke the function and assign it to a variable named `product`.
 
 #Print the product variable to see your result.
-
+product= multiply(box_1, box_2)
+print(product)
 
 #5
 #Function - divide
