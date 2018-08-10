@@ -45,10 +45,14 @@ print(product)
 #5
 #Function - divide
 #Create a function named `divide` which will take two parameters: `num_1` and `num_2`.
+def divide(num1, num2):
+    return num1 / num2
+divide(box_1, box_2)
 #This function will divide two numbers and return the quotient of these two numbers. Invoke the function and assign it to a variable named `quotient`.
 
 #Print the quotient variable to see your result.
-
+quotient= divide(box_1, box_2)
+print(quotient)
 
 #6
 #Function - check_sum
