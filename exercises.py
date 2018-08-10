@@ -90,9 +90,11 @@ print(check_product())
 #9
 #Function - check_quotient
 #Create a function named `check_quotient` which does not require any parameters.
-
+def check_quotient():
+    return product * quotient
+check_quotient()
 #This function will multiply the values stored in the product and quotient variables. Invoke this function and print your result.
-
+print(check_quotient())
 
 #10
 #Function - create_full_name
