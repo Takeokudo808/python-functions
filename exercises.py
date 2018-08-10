@@ -69,11 +69,14 @@ print(da_diva)
 #7
 #Function - check_difference
 #Create a function named `check_difference` which will take a parameter `x`.
-
+def check_difference(x):
+    return 'Last night I dreamt that I ate ' + str(x) + ' Big Macs.'
+check_difference(difference)
 #This function will return the string "Last night I dreamt that I ate `x` Big Macs."  Where `x` is the value stored in the difference variable from exercise 3. Invoke this function and assign it to a variable named `loving_it`
 
 #Print the loving_it variable to see your result.
-
+loving_it= check_difference(difference)
+print(loving_it)
 
 #8
 #Function - check_product
