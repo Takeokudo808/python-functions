@@ -21,11 +21,14 @@ print(sum)
 #3
 #Function - subtract
 #Create a function named `subtract` which will take two parameters: `num_1` and `num_2`.
-
+def subtract(num1, num2):
+    return num1 - num2
+subtract(box_1, box_2)
 #This function will subtract two numbers and return the difference of these two numbers. Invoke the function and assign it to a variable named `difference`.
 
 #Print the difference variable to see your result.
-
+difference= subtract(box_1, box_2)
+print(difference)
 
 #4
 # Function - multiply
