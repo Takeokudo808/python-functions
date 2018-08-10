@@ -57,10 +57,14 @@ print(quotient)
 #6
 #Function - check_sum
 #Create a function named `check_sum` which will take a parameter: `x`.
+def check_sum(x):
+    return 'Mariah Carey has been married ' + str(x) + ' amount of times.'
+check_sum(sum)
 #This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value stored in the sum variable from exercise 2. Invoke this function and assign it to a variable named `da_diva`.
 
 #Print the da_diva variable to see your result.
-
+da_diva= check_sum(sum)
+print(da_diva)
 
 #7
 #Function - check_difference
